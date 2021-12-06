@@ -1,5 +1,6 @@
 " Basic Setting
-set nonu
+set nu
+set relativenumber
 set hlsearch " highlighting search
 set incsearch " search with typing word.
 set ruler " cursor location
