@@ -1,5 +1,10 @@
 My Basic Vim Setting
 =====================
+# Basic Setting Method
+- git clone this repository 
+- chmod u+x Requirement_installation.sh
+- ./Requirement_installation.sh
+
 # Description
 - .vimrc -> 기본적인 세팅
 - .vim/plugins_config.vim -> configuration about vim plugins.
