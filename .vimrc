@@ -7,6 +7,7 @@ set ruler " cursor location
 set noswapfile "remove swp
 set nobackup "remove backup file
 set clipboard=unnamed " # save the copied value to clipboard.
+set rtp+=~/.fzf
 syntax on
 
 let mapleader=" " "set leader
@@ -52,6 +53,10 @@ nnoremap <leader>pt :set pastetoggle<CR>
 nnoremap <leader>nt :NERDTreeToggle<CR>
 "execute current file by #!/... binary file .
 nnoremap <F12> :!./% <<CR>
+
+"
+imap jj <ESC>
+imap hh <ESC>
 
 " confirm quit
 function! ConfirmQuit(writeFile)

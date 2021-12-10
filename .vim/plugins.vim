@@ -8,6 +8,9 @@ call vundle#begin()
     Plugin 'vim-airline/vim-airline'
     Plugin 'vim-airline/vim-airline-themes'
     Plugin 'altercation/vim-colors-solarized'
+    " related to fzf
+    Plugin 'junegunn/fzf'
+    Plugin 'junegunn/fzf.vim'
     "snippet
     "Plugin 'SirVer/ultisnips'
     "Plugin 'honza/vim-snippets'
